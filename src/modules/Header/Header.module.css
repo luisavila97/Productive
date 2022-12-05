@@ -1,0 +1,16 @@
+.header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: darkcyan;
+  box-shadow: 0 0 20px black;
+}
+
+.header h1 {
+  color: white;
+}
+.header p {
+  font-size: 15px;
+  color: white;
+}

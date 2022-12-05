@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}

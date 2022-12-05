@@ -1,0 +1,26 @@
+.card {
+  margin-top: 50px;
+  padding-bottom: 15px;
+
+  width: 20%;
+  height: auto;
+
+  background-color: #ebecf0;
+
+  border-radius: 10px;
+}
+
+.card button {
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: start;
+}
+
+.card button:hover {
+  background-color: #bbbcbe;
+}
