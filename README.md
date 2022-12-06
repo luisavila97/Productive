@@ -1,11 +1,10 @@
 Small project using React.js, React-Router and Json-Server to track tasks.
 
-### `npm run server`
+`npm run server`
 To start Json Server
 
-### `npm start`
+`npm start`
 Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
-
 
 ![image](https://user-images.githubusercontent.com/83726056/205797648-d3f62850-d11f-443e-b789-3866ca0d4fa6.png)
 
