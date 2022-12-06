@@ -38,7 +38,7 @@ const Card = ({ title, tasks }) => {
             </div>
           );
         })}
-      <Link className={styles.newPageBtn} to={`/newTask`}>
+      <Link className={styles.newPageBtn} to={`/newTask`} state={{ savedPriority: title }}>
         + Add a card
       </Link>
     </div>

@@ -1,12 +1,15 @@
 import TaskModule from "../../modules/TaskModule/TaskModule";
 
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch";
 
 const url = "http://localhost:3000/tasks";
 
 const NewTask = () => {
+  const location = useLocation();
+  const { savedPriority } = location.state;
+
   const navigate = useNavigate();
 
   const { httpConfig } = useFetch(url);
@@ -14,7 +17,7 @@ const NewTask = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [priority, setPriority] = useState("Low");
-  const [status, setStatus] = useState("To Do");
+  const [status, setStatus] = useState(savedPriority);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
