@@ -31,7 +31,6 @@ const TaskModule = ({
         <label>
           <textarea
             placeholder="Add a more detailed description..."
-            required
             name="description"
             cols="30"
             rows="10"

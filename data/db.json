@@ -1,3 +1,32 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "title": "Build the UI",
+      "description": "",
+      "priority": "High",
+      "status": "Done",
+      "id": 1
+    },
+    {
+      "title": "Create Task Module",
+      "description": "",
+      "priority": "Medium",
+      "status": "Doing",
+      "id": 2
+    },
+    {
+      "title": "Create useFetch custom hook",
+      "description": "",
+      "priority": "Low",
+      "status": "Done",
+      "id": 3
+    },
+    {
+      "title": "Push for github",
+      "description": "",
+      "priority": "Low",
+      "status": "To Do",
+      "id": 4
+    }
+  ]
 }
