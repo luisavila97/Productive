@@ -1,29 +1,3 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "title": "Camisa",
-      "description": "Test",
-      "priority": 1,
-      "status": "To Do",
-      "done": false
-    },
-    {
-      "id": 2,
-      "title": "Calça vermelha",
-      "description": "Test2",
-      "priority": 2,
-      "status": "Doing",
-
-      "done": false
-    },
-    {
-      "id": 3,
-      "title": "Boné aba reta",
-      "description": "Test3",
-      "status": "Done",
-      "priority": 3,
-      "done": true
-    }
-  ]
+  "tasks": []
 }

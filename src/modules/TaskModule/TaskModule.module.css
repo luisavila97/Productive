@@ -1,0 +1,108 @@
+.form {
+  position: fixed;
+
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 80vh;
+  width: 50vw;
+  background-color: #ebecf0;
+  display: flex;
+
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0 0 20px black;
+}
+
+.form div:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  height: 50%;
+}
+
+.form div:first-child input {
+  width: 90%;
+  font-size: 25px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.form div:first-child textarea {
+  width: 90%;
+  height: 150%;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+  resize: none;
+}
+.form div:nth-child(2) h2 {
+  text-align: start;
+}
+
+.form div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+
+  height: 20%;
+}
+
+.form div:nth-child(2) select {
+  cursor: pointer;
+  appearance: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #008b8b;
+}
+
+.form div:nth-child(2) select:hover {
+  background-color: #005959;
+}
+
+.btn {
+  border-top: 2px solid black;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.btn input,
+button {
+  cursor: pointer;
+  appearance: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #17a351;
+}
+
+.btn input:hover {
+  background-color: #118140;
+}
+
+.btn button:nth-child(1) {
+  background-color: rgb(174, 174, 5);
+}
+
+.btn button:nth-child(1):hover {
+  background-color: rgb(136, 136, 1);
+}
+
+.btn button:nth-child(2) {
+  background-color: rgb(174, 5, 5);
+}
+
+.btn button:nth-child(2):hover {
+  background-color: rgb(141, 6, 6);
+}

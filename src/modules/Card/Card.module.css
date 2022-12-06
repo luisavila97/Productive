@@ -1,26 +1,69 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   margin-top: 50px;
   padding-bottom: 15px;
 
-  width: 20%;
+  width: 30%;
   height: auto;
 
   background-color: #ebecf0;
 
   border-radius: 10px;
+
+  margin-bottom: 100px;
 }
 
-.card button {
-  border: transparent;
-  background-color: transparent;
+.card h1 {
+  margin-bottom: 0;
+}
+
+.card div:nth-child(2) span:nth-child(1) {
+  margin-right: 22vw;
+}
+
+.card .newPageBtn {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
   cursor: pointer;
-  width: 95%;
-  height: 30px;
+  width: 97%;
+  height: 40px;
   border-radius: 5px;
   font-size: 15px;
-  text-align: start;
+  padding-left: 5px;
 }
 
-.card button:hover {
+.card .newPageBtn:hover {
   background-color: #bbbcbe;
+}
+
+.btn {
+  width: 95%;
+  height: 40px;
+  padding-inline: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: transparent;
+  background-color: #bbbcbe;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-block: 7px;
+  box-shadow: 0 0 3px black;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #ebecf0;
+}
+
+.btn:nth-child(3) {
+  margin-top: 15px;
 }
